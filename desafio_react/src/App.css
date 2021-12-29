@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+html{
+  scroll-behavior: smooth;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.header_page,
+.conteud{
+  min-height: 85vh; 
+}
+
+.header_page{
+  background-image: url(./Images/bg-header-desktop.png);
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 85vh;
+}
+
+.header_page_conteud{
+  width: 43rem;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.group_buttons{
+  margin: 0 auto;
+  width: 28rem;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -2.3rem;
+}
+
+.logo_c{
+  width: 6.5rem;
+}
+
+.snippets{
+  margin-bottom: 12rem;
+}
+
+.Title_Subtitle_snippets{
+  max-width: 56%;
+  margin: auto;
+}
+
+.image__boxes{
+  display: flex;
+}
+
+.Image_snippets img{
+  width: 49vw;
+  position: relative;
+  left: -15px;
+}
+
+.boxes{
+  margin-left: 5rem;
+  margin-top: 5rem;
+}
+
+.box{
+  text-align: left;
+  width: 19rem;
+}
+
+.Clipboard_Title_text{
+  margin: auto;
+  width: 51%;
+}
+
+.Clipboard img{
+  margin: auto;
+  max-width: 90%;
+}
+
+.workflow_Title_text{
+  width: 80%;
+  margin: 0 auto 8rem;
+}
+
+.group_flexible{
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 85%;
+  flex-wrap: wrap;
+}
+
+.flexible{
+  width: 30%;
+}
+
+.flexible img{
+  width: 3.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.brands{
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.iOS_and_Mac{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iOS_and_Mac_conteud{
+  max-width: 45rem;
+  min-height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.iOS_and_Mac .group_buttons{
+  margin-bottom: 6rem;
+}
+
+/* RESPONSIVIDADE */
+@media(max-width:1028px) {
+  .header_page_conteud,
+  .iOS_and_Mac_conteud{
+    width: 80%;
+    min-height: 60vh;
+  }
+
+  .Image_snippets img{
+    left: 0;
+  }
+
+  .brands{
+    min-height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+
+  .flexible{
+    width: 90%;
+  }
+
+  .image__boxes{
+    flex-direction: column;
+  }
+
+  .boxes{
+    width: 80%;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    margin: 3rem auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .box{
+    text-align: center;
+  }
+  
+  .group_buttons{
+    width: 100%;
+    height: 8rem;
+    flex-direction: column;
+  }
+
+  .header_page_conteud{
+    margin-top: 2rem;
+  }
+
+  .iOS_and_Mac .group_buttons{
+    margin-bottom: 2rem;
+  }
+
+  .snippets{
+    margin: 8rem 0;
+  }
+
+  .header_page,
+  .snippets,
+  .Clipboard{
+    min-height: 100vh;
+  }
+}

@@ -1,0 +1,7 @@
+.Small_Text{
+    margin: auto;
+    font-weight: 400;
+    color: #979797;
+    line-height: 1.7;
+    font-size: clamp(1rem, 1.2vw, 1.3rem); 
+}

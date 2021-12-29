@@ -1,0 +1,16 @@
+.button_color{
+    border-radius: 3rem;
+    border: none;
+    padding: 1rem;
+    background: hsl(233, 100%, 69%);
+    color: #fff;
+    cursor: pointer;
+    width: 13.5rem;
+    height: 3rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+    transition: .2s;
+}
+
+.button_color:hover{
+    background: hsl(233, 95%, 62%);
+}

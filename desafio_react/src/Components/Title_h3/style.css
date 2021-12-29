@@ -1,0 +1,8 @@
+h3{
+    /* font-size: 1.4rem; */
+    font-size: clamp(1.1rem, 1.4vw, 2rem); 
+    padding-bottom: 0rem;
+    font-weight: 600;
+    color: #525252;
+    margin-bottom: 1rem;
+}
